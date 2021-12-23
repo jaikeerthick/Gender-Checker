@@ -66,5 +66,9 @@ class BottomSheetResult(
             }
         }
 
+        binding.okButton.setOnClickListener {
+            dismiss()
+        }
+
     }
 }

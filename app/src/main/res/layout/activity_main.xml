@@ -35,34 +35,53 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"/>
 
-        <EditText
-            android:id="@+id/name_field"
+        <RelativeLayout
+            android:id="@+id/field_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/title1"
             android:layout_marginHorizontal="20dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/field_bg"
-            android:inputType="textCapWords"
-            android:maxLength="25"
-            android:maxLines="1"
-            android:padding="12dp"
-            android:textColor="@color/textPrimary" />
+            >
+
+            <EditText
+                android:id="@+id/name_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_toLeftOf="@id/clear_text"
+                android:background="@drawable/field_bg"
+                android:inputType="textCapWords"
+                android:maxLength="25"
+                android:maxLines="1"
+                android:padding="12dp"
+                android:textColor="@color/textPrimary" />
+
+            <ImageView
+                android:id="@+id/clear_text"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_baseline_cancel_24"
+                app:tint="@color/colorAccent" />
+        </RelativeLayout>
+
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/checkBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/name_field"
+            android:layout_below="@id/field_layout"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="40dp"
             android:background="@drawable/field_bg"
             android:backgroundTint="@color/colorAccent"
-            android:paddingHorizontal="40dp"
-            android:text="Check  🚀"
+            android:paddingHorizontal="30dp"
+            android:text="Check 🚀"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="16sp" />
+            android:textSize="18sp" />
 
         <LinearLayout
             android:layout_width="match_parent"

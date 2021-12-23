@@ -55,6 +55,9 @@ class MainActivity : AppCompatActivity() {
         binding.apiLink.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://genderize.io/")))
         }
+        binding.clearText.setOnClickListener {
+            binding.nameField.text.clear()
+        }
 
     }
 

@@ -63,12 +63,15 @@
     </LinearLayout>
 
     <ImageView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:src="@drawable/check_symbol"
+        android:id="@+id/ok_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="10dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
         android:layout_below="@id/result_layout"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="40dp"
-        android:layout_marginTop="20dp"/>
+        android:src="@drawable/check_symbol" />
 
 </RelativeLayout>
