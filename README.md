@@ -1,15 +1,15 @@
-# Gender-Checker
+# Gender-Checker 👀
 Gender Checker app built using Kotlin, MVVM, Genderize.io API
 
 Enter a name and the app will guess the gender 🤩
 
-## Highligts:
+## ✨ Highligts:
 
 - API : [Genderize.io](https://genderize.io)
 - Architecture: MVVM
 - DI : Dagger-Hilt
 
-## About Genderize.io
+## 🍩 About Genderize.io
 
 Genderize.io is a simple API to predict the gender of a person given their name
 
@@ -27,5 +27,7 @@ The request will render a response like the following:
 The probability indicates the certainty of the assigned gender. Basically the ratio of male to females. The count represents the number of data rows examined in order to calculate the response.
 
 For more information, visit [Genderize.io](https://genderize.io)
+
+##  Screenshot
 
 <img src="https://github.com/jaikeerthick/Gender-Checker/blob/master/app/src/main/res/drawable/app_screenshot.png">
