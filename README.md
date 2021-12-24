@@ -1,4 +1,4 @@
-# Gender-Checker 👀
+# Gender-Checker 👀 <img align="left" width="50px" src="https://github.com/jaikeerthick/Gender-Checker/blob/master/app/src/main/ic_launcher-playstore.png" />
 Gender Checker app built using Kotlin, MVVM, Genderize.io API
 
 Enter a name and the app will guess the gender 🤩
