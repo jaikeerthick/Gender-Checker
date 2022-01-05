@@ -35,7 +35,7 @@ For more information, visit [Genderize.io](https://genderize.io)
 ## License
 
 ```
-    Copyright 2021 Jai Keerthick
+    Copyright 2022 Jai Keerthick
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
